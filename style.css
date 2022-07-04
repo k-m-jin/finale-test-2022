@@ -1,0 +1,168 @@
+/* 전체 */
+body {
+    background-color: #ffdd7e;
+    color: #1b1919;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+.copyright-text {
+    font-family: "Noto Sans KR";
+    font-size: 12px;
+    color: #7c7c7c;
+}
+
+/* 시작화면 */
+.question {
+    display: none;
+}
+.main-title {
+    font-size: 14px;
+    color: #7c7c7c;
+}
+.sub-title {
+    /* 어떤 타입일까? */
+    font-size: 24px;
+    font-weight: 100;
+    color: #202020;
+}
+.updown-slash {
+    width: 166px;
+    margin: 0 auto;
+}
+.start-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-start {
+    font-size: 16px;
+    color:#ff9300;
+    background-color: #1f1f1f;
+    border:#1f1f1f;
+}
+.btn-start:visited, .btn-start:hover, .btn-start:active {
+    font-size: 16px;
+    color:#1f1f1f;
+    background-color: #ff9300;
+    border:#1f1f1f;
+}
+.btn-start:active, .btn-start:focus {
+    background-color: #ff9300 !important;
+    border:#1f1f1f !important;
+    font-size: 16px;
+    color:#ffffff;
+}
+
+/* 문제 화면 */
+
+.progress-bar {
+    background-color: #7EBB76;
+}
+.progress {
+    background-color: #525764;
+}
+.likelion-logo {
+    width: 96px;
+    margin: 0 auto;
+}
+.slash-element {
+    width: 24px;
+    margin: 0 auto;
+}
+.question-content {
+    font-size: 14px;
+    color: #ff9300;
+}
+.rectangle {
+    width: 288px;
+    height: 8px;
+    background-color: #383a43;
+    margin: 0 auto;
+}
+.mid-rectangle {
+    width: 288px;
+    height: 1px;
+    background-color: #383a43;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #ff9300 !important;
+    border:#1f1f1f !important;
+    width: 288px;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.btn-answer, .button:visited, .button:active, .button:focus {
+    background-color: #1f1f1f;
+    border:#1f1f1f;
+    width: 288px;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+/* 결과 화면 */
+.result-message {
+    color: #090909;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 100;
+}
+.result-finale {
+    font-size: 18px;
+    font-weight: 100;
+    color: #090909;
+}
+.result-explain {
+    font-size: 13px;
+    font-weight: normal;
+    color: #ff9300;
+}
+.share-message {
+    margin: 0 auto;
+    color:#ffffff;
+    font-size: 24px;
+    font-weight: 100;
+}
+.result {
+    display: none;
+}
+#img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.share {
+    margin: 0 auto;
+}
+.kakao_ad {
+    width: 320px;
+    margin: 0 auto;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+.banner-img {
+    width: 300px;
+    height: 405.17px;
+}

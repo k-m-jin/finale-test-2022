@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나에게 맞는 장례방법은?</title>
+    <meta name="description" content="나와 어울리는 장례방법을 MBTI를 기반으로 추천해주는 테스트입니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="망고하다 테스트">
+    <meta property="og:description" content="나와 어울리는 장례방법을 MBTI를 기반으로 추천해주는 테스트입니다.">
+    <meta property="og:image" content="https://user-images.githubusercontent.com/57033026/177182945-1b477a9d-ee29-4322-940f-bd7b25179281.jpeg">
+    <meta property="og:url" content="https://serengeti.netlify.app/">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+</head>
+<body class="container">
+    <article class="start">
+        <h1 class="main-title mt-5 text-center">망고하다 테스트</h1>
+        <h2 class="sub-title mt-3 text-center">나에게 어울리는 장례 방법은?</h1>
+        <img class="updown-slash mt-5" src="img/up-slash.png" alt="up-slash">
+        <div class="start-cover mt-3 mb-3">
+            <img class="mr-3" src="img/double-slash-left.png" alt="double-slash-left">
+            <button type="button" class="btn-start btn btn-primary" onclick='start();'>시작하기</button>
+            <img class="ml-3" src="img/double-slash-right.png" alt="double-slash-right">
+        </div>
+        <img class="updown-slash" src="img/down-slash.png" alt="up-slash">
+    </article>
+
+    <article class="question">
+        <div class="progress mt-5">
+            <div class="progress-bar" role="progressbar" style="width: calc(100/12*1%)"></div>
+        </div>
+        <img class="mt-5 slash-element" src="img/slash-element.png" alt="slash-element">
+        <h2 id="title" class="question-content text-center mt-4 mb-4">문제</h2>
+        <img class="slash-element" src="img/slash-element.png" alt="slash-element">
+        <input id="type" type="hidden" value="EI">
+        <div class="rectangle mt-5"></div>
+        <button id="A" type="button" class="btn-answer btn btn-primary pt-5 pb-5 button ">대답A</button>
+        <div class="mid-rectangle"></div>
+        <button id="B" type="button" class="btn-answer btn btn-primary pt-5 pb-5 button">대답B</button>
+        <div class="rectangle"></div>
+    </article>
+
+    <article class="result">
+      <img class="updown-slash mt-5" src="img/dark-slash.png" alt="dark-slash">
+      <span class="result-message mt-4 mb-4">나에게 어울리는 장례식 방법은?</span>
+      <img class="updown-slash" src="img/up-slash.png" alt="up-slash">
+      <img id="img" class="rounded-circle mt-5" src="img/lion.png" alt="finale">
+      <h2 id="finale" class="result-finale text-center mt-4 mb-4">장례식방법</h2>
+      <img class="updown-slash" src="img/down-slash.png" alt="down-slash">
+      <h3 id="explain" class="result-explain text-center mt-4">설명</h3>
+      <div class="rectangle mt-4 mb-4"></div>
+      <span class="share-message mb-4">나의 마지막 잔치 <strong>공유하기</strong></span>
+
+      <!-- 공유하기 -->
+      <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+      <div class="share addthis_inline_share_toolbox"></div>
+    </article>
+
+    <article class="logo">
+        <span class="mt-2 text-center copyright-text"></span>
+    </article>
+    
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    <input type="hidden" id="EI" value="0">
+    <input type="hidden" id="SN" value="0">
+    <input type="hidden" id="TF" value="0">
+    <input type="hidden" id="JP" value="0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61adc0dd6613506f"></script>
+</body>
+</html>
